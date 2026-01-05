@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+  
+}
+.header{
+    display: flex;
+    background-color: bisque;
+    
+}
+.logo{
+    margin-left: 80px;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  
+}
+.navbur{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 30px;
+    justify-content: flex-end;
+
+
+}
+.navbur ul{
+       display: flex;
+       list-style: none;
+       gap: 70px;
+       justify-content:flex-end;
+       padding: 15px;
+     
+}
+.navbur a{
+    text-decoration: none;
+}
+.hero{
+    background-color: bisque;
+}
+
+  
+.title h2{
+    text-align: center;
+}
+.title p{
+    text-align: center;
+   
+}
+.btn {
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+  
+
+}
+.for{
+    color: #009432;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.tow{
+    width: 400px;
+    background: #009432;
+    height: 300px;
+    padding: 15px;
+    justify-content: center;
+    margin-left: 50px;
+    border-radius:  80px 50px 200px;
+}
+
+.tow h1 {
+    text-align: center;
+    color: azure;
+}
+.tow p{
+    text-align: justify;
+    line-height: 30px;
+    margin-top: 30px;
+    color: blue;
+}
